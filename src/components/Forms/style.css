@@ -1,0 +1,28 @@
+.form {
+  width: 100%;
+}
+
+.form__container {
+  color: white;
+  padding: 15px;
+}
+
+.form__container label {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  width: 100%;
+}
+
+.form__container label select {
+  margin-left: 10px;
+}
+
+.form__container label input {
+  margin-left: 10px;
+}
+
+.btn__submit_form {
+  height: 39px;
+  white-space: nowrap;
+}

@@ -1,2 +1,5 @@
 export const DATA_USER = 'DATA_USER';
 export const ADD_EXPENSES = 'ADD_EXPENSES';
+export const ADD_EXPENSES_EDIT = 'ADD_EXPENSES_EDIT';
+export const EDIT_EXPENSES = 'EDIT_EXPENSES';
+export const DELETE_EXPENSES = 'DELETE_EXPENSES';
