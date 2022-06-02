@@ -108,6 +108,7 @@ class Form extends Component {
               name="value"
               value={ value }
               data-testid="value-input"
+              autoComplete="off"
             />
           </label>
           <label htmlFor="moeda" className="form__moeda col-md-2 col-sm-12">
@@ -119,6 +120,7 @@ class Form extends Component {
               value={ currency }
               name="currency"
               data-testid="currency-input"
+              autoComplete="off"
             >
               {tags.map((moeda) => (
                 <option key={ moeda } value={ moeda } data-testid={ moeda }>
@@ -139,6 +141,7 @@ class Form extends Component {
               name="method"
               onChange={ this.handleChange }
               data-testid="method-input"
+              autoComplete="off"
             >
               <option>Dinheiro</option>
               <option>Cartão de crédito</option>
@@ -154,6 +157,7 @@ class Form extends Component {
               onChange={ this.handleChange }
               value={ tag }
               data-testid="tag-input"
+              autoComplete="off"
             >
               <option>Alimentação</option>
               <option>Lazer</option>
@@ -172,6 +176,7 @@ class Form extends Component {
               className="form-control"
               id="descricao"
               data-testid="description-input"
+              autoComplete="off"
             />
           </label>
           {toEdit ? (
